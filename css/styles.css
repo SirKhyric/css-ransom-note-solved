@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap');
+
 
 * {
   padding: 0;
@@ -80,225 +83,479 @@ body {
   font-family: 'Raleway Dots', sans-serif;
 }
 
+/* Grouped selectors with similar styles */
+
+.common-styles-one {
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
+  text-decoration: underline;
+}
+
 /* DID word */
 
 .didDLetter {
+  color: rgb(192, 121, 121);
 }
 
 .didILetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: red;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .didDTwoLetter {
+  font-family: 'Piazolla', sans-serif;
+  color: violet;
+  font-size: 30px;
 }
 
 /* THE word */
 
 .theTLetter {
+  color: forestgreen;
 }
 
 .theHLetter {
+  color: burlywood;
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 60px;
 }
 
 .theELetter {
+  color: lightsalmon;
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 50px;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  color: yellow;
 }
 
 .frontendRLetter {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: aqua;
 }
 
 .frontendOLetter {
+  color: blueviolet;
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
 }
 
 .frontendNLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: rgb(153, 71, 71);
+  font-size: 35px;
+  font-weight: normal;
 }
 
 .frontendTLetter {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: brown;
+  font-size: 40px;
 }
 
 .frontendELetter {
+  color: darkcyan;
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 35px;
 }
 
 .frontendNTwoLetter {
+  font-size: 25px;
+  color: hotpink;
+  font-family: 'Piazolla', sans-serif;
 }
 
 .frontendDLetter {
+  color: rgb(50, 102, 50);
+  font-family: 'Piazolla', sans-serif;
+  font-size: 40px;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  color: bisque;
 }
+
 .developerELetter {
+  font-weight: 700;
+  color: aquamarine;
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 35px;
 }
 .developerVLetter {
+  font-size: 35px;
+  color: lawngreen;
+  font-family: 'Ceviche One', sans-serif;
 }
 .developerETwoLetter {
+  color: antiquewhite;
+  font-family: 'Piazolla', sans-serif;
+  font-size: 40px;
 }
 .developerLLetter {
+  font-family: 'Piazolla', sans-serif;
+  color: violet;
+  font-size: 30px;
 }
 .developerOLetter {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: pink;
 }
 .developerPLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
 }
 .developerEThreeLetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: rgb(153, 71, 71);
+  font-size: 35px;
 }
 .developerRLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: lawngreen;
+  font-size: 50px;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  color: chocolate;
 }
 .takeALetter {
+  font-weight: 700;
+  font-family: 'Piazolla', sans-serif;
+  color: #000;
+  font-size: 40px;
 }
 .takeKLetter {
+  font-size: 25px;
+  font-family: 'Raleway Dots', sans-serif;
+  color: red;
+  font-size: 35pxx;
 }
 .takeELetter {
+  font-size: 25px;
+  font-family: 'Ceviche One', sans-serif;
+  color: violet;
+  font-size: 50px;
 }
 
 /* UP word */
 
 .upULetter {
+  color: orangered;
 }
 .upPLetter {
+  font-family: 'Piazolla', sans-serif;
+  color: pink;
+  font-size: 60px;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  color: violet;
 }
 .gardeningALetter {
+  font-weight: 700;
+  font-family: 'Raleway Dots', sans-serif;
+  color: lightseagreen;
+  font-size: 50px;
 }
 .gardeningRLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: lawngreen;
+  font-size: 40px;
 }
 .gardeningDLetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: yellow;
+  font-size: 45px;
 }
 .gardeningELetter {
+  font-family: 'Piazolla', sans-serif;
+  color: orange;
+  font-size: 60px;
 }
 .gardeningNLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: green;
+  font-size: 55px;
 }
 .gardeningILetter {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: 'Piazolla', sans-serif;
+  color: chocolate;
 }
 .gardeningNTwoLetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: beige;
+  font-size: 30px;
 }
 .gardeningGTwoLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 40px;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  color: lightskyblue;
 }
+
 .becauseELetter {
+  font-size: 25px;
+  font-family: 'Raleway Dots', sans-serif;
+  color: aquamarine;
 }
+
 .becauseCLetter {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+  font-size: 60px;
 }
+
 .becauseALetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: red;
+  font-size: 35px;
 }
+
 .becauseULetter {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Ceviche One', sans-serif;
+  color: lawngreen;
 }
 .becauseSLetter {
+  font-family: 'Piazolla', sans-serif;
+  color: darkmagenta;
+  font-size: 30px;
 }
 .becauseETwoLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: blue;
+  font-size: 35px;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  color: floralwhite;
 }
 .theyHLetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: yellow;
+  font-size: 50px;
 }
 .theyELetter {
+  font-family: 'Montserrat', sans-serif;
+  color: orangered;
+  font-size: 60px;
 }
 .theyYLetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: rgb(50, 102, 50);
+  text-decoration: overline;
+  font-size: 45px;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  color: forestgreen;
 }
 .wantedALetter {
+  color:blueviolet;
+  font-size: 30px;
 }
 .wantedNLetter {
+  color: goldenrod;
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 50px;
 }
 .wantedTLetter {
+  color: orange;
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 45px;
 }
 .wantedELetter {
+  color: crimson;
+  font-size: 40px;
 }
 .wantedDLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: blue;
+  font-size: 50px;
 }
 
 /* TO word */
 
 .toTLetter {
+  color: purple;
 }
+
 .toOLetter {
+  font-size: 35px;
+  font-family: 'Ceviche One', sans-serif;
+  color: rgb(153, 71, 71);
+  text-decoration: overline;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  color: lightsalmon;
 }
 .improveMLetter {
+  color: rgb(34, 61, 60);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
 }
 .improvePLetter {
+  color: pink;
+  font-size: 45px;
 }
 .improveRLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: goldenrod;
+  font-size: 60px;
 }
 .improveOLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: crimson;
+  font-size: 50px;
 }
 .improveVLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(153, 71, 71);
+  font-size: 50px;
 }
 .improveELetter {
+  color: lawngreen;
+  font-size: 40px;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  color: darkgreen;
 }
 .theirHLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(209, 83, 37);
+  font-size: 60px;
 }
 .theirELetter {
+  color:rgb(50, 102, 50);
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 45px;
 }
 .theirILetter {
+  color: darkturquoise;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
 }
 .theirRLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: aqua;
+  font-size: 60px;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  color: darkkhaki;
 }
 .rootOLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: rgb(153, 71, 71);
+  text-decoration: line-through;
+  font-size: 60px;
+  font-weight: 700;
 }
 .rootOTwoLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: goldenrod;
+  text-decoration: line-through;
+  font-size: 35px;
 }
 .rootTLetter {
+  font-family: 'Ceviche One', sans-serif;
+  color: violet;
+  font-size: 50px;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  color: darkred;
+  font-size: 35px;
 }
 .skillsKLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: lawngreen;
+  font-size: 50px;
 }
 .skillsILetter {
+  font-family: 'Piazolla', sans-serif;
+  color: crimson;
+  font-size: 40px;
 }
 .skillsLLetter {
+  font-family: 'Piazolla', sans-serif;
+  color: blue;
+  font-size: 40px;
 }
 .skillsLTwoLetter {
+  font-family: 'Montserrat', sans-serif;
+  color: gold;
+  font-size: 45px;
 }
 .skillsSTwoLetter {
+  font-family: 'Raleway Dots', sans-serif;
+  color: #000;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-family: 'Montserrat', sans-serif;
+  color: aqua;
+  font-weight: 700;
+  font-size: 30px;
 }
+
 .exclamation-mark {
+  font-family: 'Raleway Dots', sans-serif;
+  color: crimson;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 45px;
+  font-weight: 400;
 }
 .question-mark {
+  font-weight: 700;
+  font-family: 'Piazolla', sans-serif;
+  color: goldenrod;
+  font-size: 25px;
 }
